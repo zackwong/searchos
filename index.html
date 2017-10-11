@@ -12,6 +12,7 @@
     <link rel="apple-touch-icon" href="assets/searchos.jpg">
     <meta name="apple-mobile-web-app-title" content="searchos">
     <link type="text/css" rel="stylesheet" href="assets/bootstrap.css">
+    <script src="assets/search.js"></script>
     <!--[if lt IE 9]>
       <script src="assets/html5shiv.js"></script>
       <script src="assets/respond.min.js"></script>
@@ -21,7 +22,10 @@
     <div class="container my-5">
       <div class="col-md-12 text-center">
         <img src="assets/logo.jpg" class="img-thumbnail my-5" alt="logo">
-        <div class="input-group mb-5 col-md-9 mx-md-auto"><input type="text" placeholder="请输入查询信息" class="form-control"><a href="https://www.baidu.com" class="input-group-addon btn btn-light">搜索</a></div>
+        <div class="input-group mb-5 col-md-9 mx-md-auto">
+          <input type="text" id="text1" placeholder="请输入查询信息" class="form-control">
+          <button class="input-group-addon btn btn-light" onClick="openLink();">搜索</button>
+        </div>
         <p>技术支持：开源网络</p>
       </div>
     </div>
