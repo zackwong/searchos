@@ -386,16 +386,12 @@
     "grid.less",
     "forms.less",
     "buttons.less",
-    "button-groups.less",
     "input-groups.less",
     "close.less",
-    "component-animations.less",
     "modals.less"
   ],
   "js": [
-    "button.js",
-    "modal.js",
-    "collapse.js"
+    "modal.js"
   ],
   "customizerUrl": "<none>"
 }
